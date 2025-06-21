@@ -1,6 +1,9 @@
 
+<<<<<<< HEAD
 ---
 
+=======
+>>>>>>> origin/master
 # ⚡ Kafka to ClickHouse Data Pipeline
 
 Hey! I'm Mohamed Hussain — currently working as an **Associate Data Engineer Intern** 👨‍💻
@@ -75,34 +78,3 @@ Associate Data Engineer Intern
 ---
 
 > Building in public — one stream at a time ⚙️
-
----
-
-
-You can create a folder named `clickhouse-init/` and inside it, include this SQL file:
-
-### File: `init.sql`
-
-```sql
-CREATE TABLE IF NOT EXISTS website_visits (
-    timestamp DateTime,
-    url String,
-    country String
-)
-ENGINE = MergeTree
-ORDER BY (timestamp);
-```
-
-This creates a basic OLAP table that organizes visits by timestamp.
-
----
-
-Let me know if you want the **architecture diagram image** as well — I can generate a clean one that shows:
-
-```
-+------------+       +--------+        +-------------+
-|  Producer  | --->  | Kafka  | --->   | ClickHouse  |
-+------------+       +--------+        +-------------+
-```
-
-Just say the word and I’ll generate it.
