@@ -21,7 +21,7 @@ else:
     print("❌ Kafka broker not available after 10 retries. Exiting.")
     exit(1)
 
-# Now producing fake data
+# producing fake data
 fake = Faker()
 
 while True:
