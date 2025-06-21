@@ -1,6 +1,4 @@
 
----
-
 # ⚡ Kafka to ClickHouse Data Pipeline
 
 Hey! I'm Mohamed Hussain — currently working as an **Associate Data Engineer Intern** 👨‍💻
