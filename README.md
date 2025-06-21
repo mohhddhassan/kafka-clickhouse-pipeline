@@ -1,6 +1,8 @@
 # ⚡ Kafka → ClickHouse: Real-Time Data Pipeline
 
-Hey! I'm Mohamed Hussain — currently working as an **Associate Data Engineer Intern** 👨‍💻
+> A beginner-friendly real-time pipeline using Kafka, Python, and ClickHouse — containerized with Docker.
+
+Hey! I'm Mohamed Hussain — currently working as an **Associate Data Engineer Intern** 👨‍💻  
 This repo is my attempt at building a **lightweight real-time pipeline** using **Kafka + ClickHouse** — ideal for beginners stepping into the world of streaming and OLAP systems.
 
 If you're curious about how data flows in real-time pipelines, this simple project might help 🎯
@@ -15,16 +17,16 @@ If you're curious about how data flows in real-time pipelines, this simple proje
 | `clickhouse-init/`   | SQL script to create the required table in ClickHouse               |
 | `screenshots/`       | Visual proof — architecture diagram, Kafka topic, ClickHouse output |
 | `docker-compose.yml` | Docker setup to spin up Kafka, Zookeeper, and ClickHouse            |
-| `README.md`          | You’re reading it!                                                  |
+| `README.md`          | Project overview and documentation                                  |
 
 ---
 
 ## 🚀 What This Does
 
-* The **producer** generates mock website visit logs (timestamp, URL, country)
-* It pushes each record into a **Kafka** topic named `website_visits`
-* Simultaneously, the same data is also inserted into a **ClickHouse** table
-* All services (Kafka, Zookeeper, ClickHouse) run inside Docker
+* Generates mock website visit logs (timestamp, URL, country)
+* Pushes each record to a **Kafka** topic named `website_visits`
+* Inserts the same data into a **ClickHouse** table
+* Runs all services (Kafka, Zookeeper, ClickHouse) using Docker
 
 ---
 
@@ -53,6 +55,8 @@ If you're curious about how data flows in real-time pipelines, this simple proje
 * Simulate more complex streaming use cases (e.g., log aggregation)
 * Add Grafana to visualize real-time metrics from ClickHouse 📊
 
+> Have an idea or feedback? Feel free to fork and contribute! 🚀
+
 ---
 
 ## 🙌 Thanks To
@@ -65,10 +69,10 @@ If you're curious about how data flows in real-time pipelines, this simple proje
 
 ## 👋 About Me
 
-**Mohamed Hussain S**
-Associate Data Engineer Intern
+**Mohamed Hussain S**  
+Associate Data Engineer Intern  
 [LinkedIn](https://linkedin.com/in/hussainmohhdd) | [GitHub](https://github.com/mohhddhassan)
 
 ---
 
-> Building in public — one stream at a time ⚙️git push origin master
+> Building in public — one stream at a time ⚙️
