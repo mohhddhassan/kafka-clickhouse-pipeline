@@ -5,8 +5,8 @@ import json, time, random
 
 KAFKA_BOOTSTRAP_SERVERS = 'kafka:9092'
 
-# Retry logic to wait for Kafka broker to be ready
-for i in range(10):  # Try up to 10 times
+
+for i in range(10):
     try:
         producer = KafkaProducer(
             bootstrap_servers=KAFKA_BOOTSTRAP_SERVERS,
@@ -21,7 +21,7 @@ else:
     print("❌ Kafka broker not available after 10 retries. Exiting.")
     exit(1)
 
-# Now start producing fake data
+# Now producing fake data
 fake = Faker()
 
 while True:
