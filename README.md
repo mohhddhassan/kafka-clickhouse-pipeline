@@ -1,9 +1,3 @@
-
-<<<<<<< HEAD
----
-
-=======
->>>>>>> origin/master
 # ⚡ Kafka to ClickHouse Data Pipeline
 
 Hey! I'm Mohamed Hussain — currently working as an **Associate Data Engineer Intern** 👨‍💻
@@ -77,4 +71,4 @@ Associate Data Engineer Intern
 
 ---
 
-> Building in public — one stream at a time ⚙️
+> Building in public — one stream at a time ⚙️git push origin master
