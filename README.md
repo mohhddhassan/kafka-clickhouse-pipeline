@@ -1,6 +1,4 @@
-Here’s your **updated `README.md`** reflecting the **actual current repo structure**, including the `clickhouse-setup.sql` file and corrected descriptions:
 
----
 
 # ⚡ Kafka → ClickHouse: Real-Time Data Pipeline
 
