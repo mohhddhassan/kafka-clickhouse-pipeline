@@ -1,4 +1,4 @@
-# ⚡ Kafka to ClickHouse Data Pipeline
+# ⚡ Kafka → ClickHouse: Real-Time Data Pipeline
 
 Hey! I'm Mohamed Hussain — currently working as an **Associate Data Engineer Intern** 👨‍💻
 This repo is my attempt at building a **lightweight real-time pipeline** using **Kafka + ClickHouse** — ideal for beginners stepping into the world of streaming and OLAP systems.
@@ -33,7 +33,7 @@ If you're curious about how data flows in real-time pipelines, this simple proje
 * Understand how real-time systems like **Kafka** and **ClickHouse** interact
 * Learn how to write and run a Kafka producer in Python
 * Explore OLAP-style storage with ClickHouse
-* Build something small but useful ✨
+* Build something simple yet useful ✨
 
 ---
 
