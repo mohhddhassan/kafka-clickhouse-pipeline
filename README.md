@@ -120,4 +120,3 @@ Associate Data Engineer Intern
 
 ---
 
-Let me know if you'd like a **banner image** or **badges** (e.g. Dockerized, Python 3.10, etc.) added to the top.
